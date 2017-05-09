@@ -9,8 +9,8 @@ import logging
 import signal
 import sys
 
-optionA = "NFC"
-optionB = "AFC"
+optionA = "ABA"
+optionB = "NBA"
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
